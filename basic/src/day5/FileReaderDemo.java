@@ -7,7 +7,8 @@ import java.io.IOException;
 import java.net.URL;
 public class FileReaderDemo {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException 
+	{
 		// Use the class loader to get the resource URL for the file in the same package
         URL resource = FileReaderDemo.class.getResource("MVIT.txt");
         
